@@ -15,3 +15,74 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+body {
+    background-color: #E7E5D9;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    width: 5em;
+    margin: 0 auto;
+    color: white;
+}
+
+.masthead {
+    background: transparent url("../img/masthead-bg.png") repeat left center;
+    height: 3em;
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+    background-color: #E7E5D9;
+}
+
+.logo {
+    width: 2em;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img-border {
+    border-image: url(../img/panel-border.png) 20 20 20 20 stretch stretch;
+    border-width: 20px 20px 20px 20px;
+}
+.crimes {
+    color: white;
+    text-align: center;
+}
+
+.crime-list {
+    font-family: "Georgia", serif;
+    color: white;
+}
+
+.border-img {
+    border-image: url(../img/panel-border.png) 20 20 20 20 stretch stretch;
+    border-width: 20px 20px 20px 20px;
+}
+
+.wanted-info {
+    background-color: #87714F;
+}
+
+.hat {
+    width: 5em;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.handcuffs {
+    width: 4em;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
