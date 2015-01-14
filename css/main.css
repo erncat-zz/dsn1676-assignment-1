@@ -30,6 +30,11 @@ h2 {
     width: 5em;
     margin: 0 auto;
     color: white;
+    padding-top: 1.5em;
+}
+
+ul {
+    padding-bottom: 2em;
 }
 
 .masthead {
@@ -41,6 +46,7 @@ h2 {
 .title {
     display: inline-block;
     background-color: #E7E5D9;
+    text-shadow: 3px 3px 0 #BFBFBE;
 }
 
 .logo {
@@ -70,7 +76,13 @@ h2 {
 }
 
 .wanted-info {
+    text-align: center;
+    color: white;
     background-color: #87714F;
+    background-image: url("../img/hat.svg"), url("../img/handcuffs.svg");
+    background-position: center top, center bottom 10px;
+    background-repeat:  no-repeat;
+    background-size: 70px 70px, 40px 40px;
 }
 
 .hat {
